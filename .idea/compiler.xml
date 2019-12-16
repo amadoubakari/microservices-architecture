@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="demo" />
+        <module name="gateway-api" />
+        <module name="Microservices Architecture" />
+        <module name="service-discovery-register" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="1.8" />
+      <module name="gateway-api" target="1.8" />
+      <module name="Microservices Architecture" target="1.5" />
+      <module name="service-discovery-register" target="1.8" />
+      <module name="servie-discovery-register" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
